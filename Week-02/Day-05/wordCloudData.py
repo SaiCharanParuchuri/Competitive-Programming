@@ -6,7 +6,7 @@ class WordCloudData(object):
         a = re.split('\.| |\?|\!|:|\- |, |\(|\)',inp)
         d = {}
         for i in a:
-            if i!=' ':
+            if i!='':
                 j = i.title()
                 if i in d:
                     d[i] += 1
